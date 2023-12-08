@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Card, Textarea, TextareaProps, Text } from '@ignite-ui/react'
+import { Card, Textarea, TextareaProps, Text } from '@kahzita-ignite-ui/react'
 
 export default {
   title: 'Components/Textarea',

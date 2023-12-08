@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Card, Checkbox, CheckboxProps, Text } from '@ignite-ui/react'
+import { Card, Checkbox, CheckboxProps, Text } from '@kahzita-ignite-ui/react'
 
 export default {
   title: 'Components/Checkbox',

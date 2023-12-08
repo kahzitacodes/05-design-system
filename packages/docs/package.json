@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@kahzita-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,10 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@kahzita-ignite-ui/eslint-config": "*",
+    "@kahzita-ignite-ui/react": "*",
+    "@kahzita-ignite-ui/tokens": "*",
+    "@kahzita-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.6.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

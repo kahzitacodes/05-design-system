@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Card, InputText, InputTextProps, Text } from '@ignite-ui/react'
+import { Card, InputText, InputTextProps, Text } from '@kahzita-ignite-ui/react'
 
 export default {
   title: 'Components/InputText',

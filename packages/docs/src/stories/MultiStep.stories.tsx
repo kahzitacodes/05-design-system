@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Card, MultiStep, MultiStepProps } from '@ignite-ui/react'
+import { Card, MultiStep, MultiStepProps } from '@kahzita-ignite-ui/react'
 
 export default {
   title: 'Components/MultiStep',
