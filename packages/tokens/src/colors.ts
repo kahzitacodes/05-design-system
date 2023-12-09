@@ -15,4 +15,6 @@ export const colors = {
   brand500: '#00875F',
   brand700: '#015F43',
   brand900: '#00291D',
+
+  test: '#FFF',
 }
