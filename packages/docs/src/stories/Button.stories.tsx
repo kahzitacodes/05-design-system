@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '@kahzita-ignite-ui/react'
-import { ArrowRight } from 'phosphor-react'
+import { ArrowRight, Info } from 'phosphor-react'
 
 export default {
   title: 'Components/Button',
@@ -11,6 +11,7 @@ export default {
     variant: 'primary',
     size: 'md',
     disabled: false,
+    icon: false,
   },
   argTypes: {
     variant: {
@@ -26,6 +27,11 @@ export default {
       },
     },
     disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    icon: {
       control: {
         type: 'boolean',
       },
@@ -66,7 +72,19 @@ export const Small: StoryObj<ButtonProps> = {
 
 export const Disabled: StoryObj<ButtonProps> = {
   args: {
-    disabled: 'true',
+    disabled: true,
     variant: 'tertiary',
+  },
+}
+
+export const IconOnly: StoryObj<ButtonProps> = {
+  args: {
+    icon: true,
+    size: 'md',
+    children: (
+      <>
+        <Info />
+      </>
+    ),
   },
 }

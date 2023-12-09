@@ -16,11 +16,7 @@ export const Button = styled('button', {
   justifyContent: 'center',
   gap: '$2',
   cursor: 'pointer',
-
-  svg: {
-    width: '$4',
-    height: '$4',
-  },
+  position: 'relative',
 
   '&:disabled': {
     cursor: 'not-allowed',
@@ -79,18 +75,51 @@ export const Button = styled('button', {
         padding: '0 $2',
         height: 36,
         minWidth: 80,
+        svg: {
+          width: '$4',
+          height: '$4',
+        },
       },
       md: {
         padding: '0 $4',
         height: 44,
         minWidth: 120,
+        svg: {
+          width: '$5',
+          height: '$5',
+        },
+      },
+    },
+
+    icon: {
+      true: {
+        aspectRatio: '1 / 1',
+        padding: 0,
       },
     },
   },
 
+  compoundVariants: [
+    {
+      size: 'md',
+      icon: true,
+      css: {
+        minWidth: 44,
+      },
+    },
+    {
+      size: 'sm',
+      icon: true,
+      css: {
+        minWidth: 36,
+      },
+    },
+  ],
+
   defaultVariants: {
     variant: 'primary',
     size: 'md',
+    icon: false,
   },
 })
 
